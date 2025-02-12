@@ -1,0 +1,232 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a071b8815c462c4e810c71f38b4489f, type: 3}
+  m_Name: MusicLibrarySO
+  m_EditorClassIdentifier: 
+  MusicSampleClips:
+  - type: 0
+    audioClip: {fileID: 8300000, guid: 5bac6647ec2c487428f8d20d48792635, type: 3}
+    setup:
+      priority: 128
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 1.7
+    musicSampleType: 0
+  - type: 1
+    audioClip: {fileID: 8300000, guid: a965a8aff0ad70046a10c83a6aad9d48, type: 3}
+    setup:
+      priority: 128
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0.6
+    musicSampleType: 1
+  - type: 2
+    audioClip: {fileID: 8300000, guid: a965a8aff0ad70046a10c83a6aad9d48, type: 3}
+    setup:
+      priority: 128
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0.6
+    musicSampleType: 2
+  - type: 3
+    audioClip: {fileID: 8300000, guid: b782dc132da3d93469bf4184e3bbcca7, type: 3}
+    setup:
+      priority: 128
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 1.1
+    musicSampleType: 3
+  - type: 4
+    audioClip: {fileID: 8300000, guid: b782dc132da3d93469bf4184e3bbcca7, type: 3}
+    setup:
+      priority: 128
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 1.1
+    musicSampleType: 4
+  - type: 5
+    audioClip: {fileID: 8300000, guid: 0c88097b20c19a04aa3012b4eb245e41, type: 3}
+    setup:
+      priority: 128
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0.5
+    musicSampleType: 5
+  - type: 8
+    audioClip: {fileID: 8300000, guid: b44cafc27389a0044a28be4790a45f90, type: 3}
+    setup:
+      priority: 128
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0.5
+    musicSampleType: 8
+  - type: 9
+    audioClip: {fileID: 8300000, guid: b44cafc27389a0044a28be4790a45f90, type: 3}
+    setup:
+      priority: 128
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0.5
+    musicSampleType: 9
+  - type: 6
+    audioClip: {fileID: 8300000, guid: 8c9793879c994bf4b80e5d9eaeda3b9d, type: 3}
+    setup:
+      priority: 128
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0.5
+    musicSampleType: 6
+  - type: 7
+    audioClip: {fileID: 8300000, guid: 8c9793879c994bf4b80e5d9eaeda3b9d, type: 3}
+    setup:
+      priority: 128
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0.5
+    musicSampleType: 7
+  - type: 10
+    audioClip: {fileID: 8300000, guid: 9ec9c9304fa549147957f96fb4413980, type: 3}
+    setup:
+      priority: 128
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 1.1
+    musicSampleType: 10
+  - type: 11
+    audioClip: {fileID: 8300000, guid: 9d86a493b5160fe499d73831ef2f9bf5, type: 3}
+    setup:
+      priority: 128
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 1.6
+    musicSampleType: 11
+  - type: 14
+    audioClip: {fileID: 8300000, guid: 51966de4fd0429b45a9e63410d14d53a, type: 3}
+    setup:
+      priority: 128
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 1.6
+    musicSampleType: 14
+  - type: 15
+    audioClip: {fileID: 8300000, guid: 51966de4fd0429b45a9e63410d14d53a, type: 3}
+    setup:
+      priority: 128
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 1.6
+    musicSampleType: 15
+  - type: 12
+    audioClip: {fileID: 8300000, guid: a4781a90907c85d48a29d0a1725bae4a, type: 3}
+    setup:
+      priority: 128
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 1.6
+    musicSampleType: 12
+  - type: 13
+    audioClip: {fileID: 8300000, guid: a4781a90907c85d48a29d0a1725bae4a, type: 3}
+    setup:
+      priority: 128
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 1.6
+    musicSampleType: 13
+  - type: 16
+    audioClip: {fileID: 8300000, guid: 8639b1105612227489fd50f27db6e974, type: 3}
+    setup:
+      priority: 128
+      volume: 100
+      pitch: 1
+      startTime: 3.5
+      endTime: 0.2
+    musicSampleType: 16
+  - type: 17
+    audioClip: {fileID: 8300000, guid: 782a30cc40fa2e24e9fd2876bcdb7764, type: 3}
+    setup:
+      priority: 128
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0.2
+    musicSampleType: 17
+  - type: 18
+    audioClip: {fileID: 8300000, guid: 782a30cc40fa2e24e9fd2876bcdb7764, type: 3}
+    setup:
+      priority: 128
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0.2
+    musicSampleType: 18
+  - type: 19
+    audioClip: {fileID: 8300000, guid: dd28ef69ea8829f42b801573b8eea240, type: 3}
+    setup:
+      priority: 128
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0.15
+    musicSampleType: 19
+  - type: 20
+    audioClip: {fileID: 8300000, guid: dd28ef69ea8829f42b801573b8eea240, type: 3}
+    setup:
+      priority: 128
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0.15
+    musicSampleType: 20
+  - type: 21
+    audioClip: {fileID: 8300000, guid: 5ddd196cd43040649bce823f36f4eeb9, type: 3}
+    setup:
+      priority: 128
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 1.7
+    musicSampleType: 21
+  - type: 22
+    audioClip: {fileID: 8300000, guid: ebeb9dbd0a71155429af41338cb17de3, type: 3}
+    setup:
+      priority: 128
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0.01
+    musicSampleType: 22
+  MusicEffectClips:
+  - type: 0
+    audioClip: {fileID: 8300000, guid: 38808583a7c673f429b97d20919fd24b, type: 3}
+    setup:
+      priority: 128
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+    musicEffectType: 0

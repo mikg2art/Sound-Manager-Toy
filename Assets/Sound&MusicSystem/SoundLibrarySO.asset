@@ -1,0 +1,1154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09146eeb322465e4a9dc248a32633be2, type: 3}
+  m_Name: SoundLibrarySO
+  m_EditorClassIdentifier: 
+  test: 0
+  BackgroundAudioClips:
+  - type: 0
+    audioClip: {fileID: 8300000, guid: 90aa8a01339058547a43c592d347c246, type: 3}
+    setups:
+      priority: 128
+      volume: 48
+      pitch: 0.5
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 0
+  - type: 1
+    audioClip: {fileID: 8300000, guid: 9f15664a04dc14e418019883fbc18076, type: 3}
+    setups:
+      priority: 124
+      volume: 15
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 1
+  - type: 2
+    audioClip: {fileID: 8300000, guid: 9f15664a04dc14e418019883fbc18076, type: 3}
+    setups:
+      priority: 124
+      volume: 15
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 2
+  - type: 3
+    audioClip: {fileID: 8300000, guid: 598e3b12369e09448a0b4be383757797, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 3
+  - type: 4
+    audioClip: {fileID: 8300000, guid: f8538e72c1c30b442b466f1891f4e00b, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 4
+  EnvironmentAudioClips:
+  - type: 0
+    audioClip: {fileID: 8300000, guid: 3903c3a6cf4181e429650cba61ad9286, type: 3}
+    setups:
+      priority: 124
+      volume: 70
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 0
+  - type: 1
+    audioClip: {fileID: 8300000, guid: af8cbf0e824be8c4a80f4ec44b6e8f30, type: 3}
+    setups:
+      priority: 124
+      volume: 72
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 1
+  - type: 2
+    audioClip: {fileID: 8300000, guid: b2732b760318eed40b937afa825ef8db, type: 3}
+    setups:
+      priority: 124
+      volume: 20
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 2
+  UniversalAudioClips:
+  - type: 0
+    audioClip: {fileID: 0}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 0
+  - type: 1
+    audioClip: {fileID: 8300000, guid: 40c2356930d06694c9cc5c95123b732f, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 1
+  - type: 2
+    audioClip: {fileID: 8300000, guid: 5d69a9aa7db2d7b4cb281eb5ca40a45c, type: 3}
+    setups:
+      priority: 124
+      volume: 54
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 2
+  - type: 1
+    audioClip: {fileID: 8300000, guid: ef4f2150d4a514a40a41addf15033324, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 1
+  - type: 1
+    audioClip: {fileID: 8300000, guid: 5e337b174a2b79047b17180625c43ee5, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 1
+  - type: 3
+    audioClip: {fileID: 8300000, guid: 6273f120fe7ba7d42a55997b1229c1fd, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 3
+  NoRageAudioClips:
+  - type: 0
+    audioClip: {fileID: 8300000, guid: f44ff4563cc1d7841a2b8a0b4d7b7600, type: 3}
+    setups:
+      priority: 124
+      volume: 80
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 0
+  - type: 1
+    audioClip: {fileID: 8300000, guid: d929353f8b0c08940887d96b165dc3f8, type: 3}
+    setups:
+      priority: 124
+      volume: 80
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 1
+  - type: 2
+    audioClip: {fileID: 8300000, guid: 8168b160f38e4474ca628db33dc154f2, type: 3}
+    setups:
+      priority: 124
+      volume: 80
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 2
+  - type: 3
+    audioClip: {fileID: 8300000, guid: 02812c41b38901f49847de8b901ddb46, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 3
+  - type: 4
+    audioClip: {fileID: 8300000, guid: 36d1d1da59c95464a98825824619730b, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 4
+  - type: 5
+    audioClip: {fileID: 0}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 5
+  PassiveRageAudioClips:
+  - type: 0
+    audioClip: {fileID: 8300000, guid: ed78d8bfef298fe498afd5993cf6bdaf, type: 3}
+    setups:
+      priority: 124
+      volume: 90
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 0
+  - type: 1
+    audioClip: {fileID: 8300000, guid: b3c315c207a80794aaace1e207741026, type: 3}
+    setups:
+      priority: 124
+      volume: 90
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 1
+  - type: 2
+    audioClip: {fileID: 8300000, guid: da8ba61e83c7e3e4e87ead3dd84ea6cb, type: 3}
+    setups:
+      priority: 124
+      volume: 90
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 2
+  - type: 3
+    audioClip: {fileID: 8300000, guid: 2f285ad5f91b9bc448306237606bd29f, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 3
+  - type: 4
+    audioClip: {fileID: 8300000, guid: 53c5bfb6c2cf333419e3b67ceaffc752, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 4
+  ActiveRageAudioClips:
+  - type: 0
+    audioClip: {fileID: 8300000, guid: c3a3b70efd0da7f47a2fb1bbabdbcdde, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 0
+  - type: 1
+    audioClip: {fileID: 8300000, guid: da85f8844e798d54a81825ced436ed6b, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 1
+  - type: 2
+    audioClip: {fileID: 8300000, guid: c6fc79a0ba7582f4fabec91d005b7e02, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 2
+  - type: 3
+    audioClip: {fileID: 8300000, guid: ee4218630e9f4164c887e959b5ff264b, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 3
+  - type: 4
+    audioClip: {fileID: 8300000, guid: e103019d51bd0b94c8dcda33777d8968, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 4
+  - type: 5
+    audioClip: {fileID: 8300000, guid: 7c186b1720b611f4fb74c2424e454b7a, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 5
+  OniAudioClips:
+  - type: 0
+    audioClip: {fileID: 8300000, guid: a595384037b44574a88478d032d15bd3, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 0
+  - type: 1
+    audioClip: {fileID: 8300000, guid: 40c2356930d06694c9cc5c95123b732f, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 1
+  - type: 2
+    audioClip: {fileID: 8300000, guid: 613c9eee7808b3642be34d2a7a3d8a2d, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1.1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 2
+  - type: 3
+    audioClip: {fileID: 8300000, guid: b0788cc294f656a47aafdaf8efb1aba5, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1.1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 3
+  - type: 4
+    audioClip: {fileID: 8300000, guid: 87532a0333bf9d2418e7c1e5026352f9, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1.1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 4
+  - type: 1
+    audioClip: {fileID: 8300000, guid: ef4f2150d4a514a40a41addf15033324, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 1
+  - type: 1
+    audioClip: {fileID: 8300000, guid: 5e337b174a2b79047b17180625c43ee5, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 1
+  - type: 0
+    audioClip: {fileID: 8300000, guid: ad95a7cd7cefb4443ba1724336ea9ac8, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 0
+  - type: 0
+    audioClip: {fileID: 8300000, guid: fd295476b6837e242aa2a05706a91e06, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 0
+  - type: 5
+    audioClip: {fileID: 8300000, guid: 4d56bd0b0b60308418d6cee2f2ceef0b, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 5
+  - type: 5
+    audioClip: {fileID: 8300000, guid: c512335ffc5b32a45898984f124cdd9e, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 5
+  - type: 5
+    audioClip: {fileID: 8300000, guid: 6280137d641e32e4b8d1e7851ea6d23f, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 5
+  - type: 5
+    audioClip: {fileID: 8300000, guid: 7c14fc777fad4bb4a91bbcb873810cdc, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 5
+  - type: 6
+    audioClip: {fileID: 8300000, guid: 233b395f1ad157c468540edf132887fe, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 6
+  BigOniAudioClips:
+  - type: 0
+    audioClip: {fileID: 8300000, guid: a595384037b44574a88478d032d15bd3, type: 3}
+    setups:
+      priority: 0
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 0
+  - type: 1
+    audioClip: {fileID: 8300000, guid: 40c2356930d06694c9cc5c95123b732f, type: 3}
+    setups:
+      priority: 0
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 1
+  - type: 2
+    audioClip: {fileID: 8300000, guid: b0788cc294f656a47aafdaf8efb1aba5, type: 3}
+    setups:
+      priority: 0
+      volume: 100
+      pitch: 1.1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 2
+  - type: 3
+    audioClip: {fileID: 8300000, guid: 5d3bd7f53077480438e8cb3158097722, type: 3}
+    setups:
+      priority: 0
+      volume: 100
+      pitch: 1.1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 3
+  - type: 4
+    audioClip: {fileID: 8300000, guid: 87532a0333bf9d2418e7c1e5026352f9, type: 3}
+    setups:
+      priority: 0
+      volume: 100
+      pitch: 1.1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 4
+  - type: 0
+    audioClip: {fileID: 8300000, guid: ad95a7cd7cefb4443ba1724336ea9ac8, type: 3}
+    setups:
+      priority: 0
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 0
+  - type: 0
+    audioClip: {fileID: 8300000, guid: fd295476b6837e242aa2a05706a91e06, type: 3}
+    setups:
+      priority: 0
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 0
+  - type: 1
+    audioClip: {fileID: 8300000, guid: ef4f2150d4a514a40a41addf15033324, type: 3}
+    setups:
+      priority: 0
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 1
+  - type: 1
+    audioClip: {fileID: 8300000, guid: 5e337b174a2b79047b17180625c43ee5, type: 3}
+    setups:
+      priority: 0
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 1
+  - type: 5
+    audioClip: {fileID: 8300000, guid: 4d56bd0b0b60308418d6cee2f2ceef0b, type: 3}
+    setups:
+      priority: 0
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 5
+  - type: 5
+    audioClip: {fileID: 8300000, guid: c512335ffc5b32a45898984f124cdd9e, type: 3}
+    setups:
+      priority: 0
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 5
+  - type: 5
+    audioClip: {fileID: 8300000, guid: 6280137d641e32e4b8d1e7851ea6d23f, type: 3}
+    setups:
+      priority: 0
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 5
+  - type: 5
+    audioClip: {fileID: 8300000, guid: 7c14fc777fad4bb4a91bbcb873810cdc, type: 3}
+    setups:
+      priority: 0
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 5
+  - type: 6
+    audioClip: {fileID: 8300000, guid: 233b395f1ad157c468540edf132887fe, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 6
+  YureiAudioClips:
+  - type: 0
+    audioClip: {fileID: 8300000, guid: 846509eafe76ff847a21b9980ae1509e, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 0
+  - type: 1
+    audioClip: {fileID: 8300000, guid: e3905731f11103f4f8f666b9c378772d, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 1
+  - type: 2
+    audioClip: {fileID: 8300000, guid: a138e286404aa8d4cbc8a20cfecf0781, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 2
+  - type: 3
+    audioClip: {fileID: 8300000, guid: 74b8041eaf86b6f4c8e265d5bb89885d, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 3
+  - type: 4
+    audioClip: {fileID: 8300000, guid: e8cc42542dd74114fb1af3f56dc062b0, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 4
+  - type: 5
+    audioClip: {fileID: 8300000, guid: 67304df5ab3ce164586df046787b1912, type: 3}
+    setups:
+      priority: 124
+      volume: 40
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 5
+  - type: 0
+    audioClip: {fileID: 8300000, guid: 3d4d58d73cf360a449cadea6e81dd9aa, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 0
+  - type: 1
+    audioClip: {fileID: 8300000, guid: d9855b51b6d1e9a4aa9d000ca8026a97, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 1
+  - type: 1
+    audioClip: {fileID: 8300000, guid: e001dc5c58e8a7f478b9af97281203df, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 1
+  - type: 5
+    audioClip: {fileID: 8300000, guid: 413264ab7a89e2d4fb15dd1f8d43d409, type: 3}
+    setups:
+      priority: 124
+      volume: 40
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 5
+  - type: 5
+    audioClip: {fileID: 8300000, guid: cd9d80fa0cf0d9a48b4bd738d3956ee5, type: 3}
+    setups:
+      priority: 124
+      volume: 40
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 5
+  OrbAudioClips:
+  - type: 0
+    audioClip: {fileID: 8300000, guid: b2732b760318eed40b937afa825ef8db, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 0
+  - type: 1
+    audioClip: {fileID: 8300000, guid: 1e7ef3292c92b5e4dbb5b93b793ebf06, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 1
+  - type: 2
+    audioClip: {fileID: 8300000, guid: eaa93a374951ba6499b6426f35ff7cf6, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 2
+  - type: 3
+    audioClip: {fileID: 8300000, guid: dab5ef1de6759494c91a034e580defb6, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 3
+  - type: 1
+    audioClip: {fileID: 8300000, guid: d5dbc099d6d6d8d42b9eaf298cdcc42e, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 1
+  - type: 1
+    audioClip: {fileID: 8300000, guid: 35d897d1f77f93441821d0242341b28e, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 1
+  FinalBossAudioClips:
+  - type: 0
+    audioClip: {fileID: 8300000, guid: f55928632d103124283cc67a1901481e, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 0
+  - type: 1
+    audioClip: {fileID: 8300000, guid: 786a08e6874c3f34e831c4708cfbd53c, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 1
+  - type: 2
+    audioClip: {fileID: 8300000, guid: 2f2bf8a24a5b090469a96fa21702d001, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 2
+  - type: 3
+    audioClip: {fileID: 8300000, guid: e9a68562325793b4c84970e59d4fd80a, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 3
+  - type: 4
+    audioClip: {fileID: 8300000, guid: 6d769984f7728b24eb3d3dc8f777761d, type: 3}
+    setups:
+      priority: 124
+      volume: 80
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 4
+  - type: 5
+    audioClip: {fileID: 8300000, guid: 256bb1e27555189408d648478ecdae24, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 5
+  - type: 6
+    audioClip: {fileID: 8300000, guid: 8b7584905da88424185868bcfbbece15, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 6
+  - type: 1
+    audioClip: {fileID: 8300000, guid: 39a25f782a38451469710a6891844d5b, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 1
+  - type: 7
+    audioClip: {fileID: 8300000, guid: c979c2993af570a4ca7fd3242ce2c55e, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 7
+  - type: 8
+    audioClip: {fileID: 8300000, guid: 7e2212e6cbf871540b13878b121db7f1, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 8
+  - type: 9
+    audioClip: {fileID: 8300000, guid: 0e866365add7f224d83a445e21d6b620, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 9
+  - type: 10
+    audioClip: {fileID: 8300000, guid: 965e134c99a2ffc4c9750722edf9cecb, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 10
+  - type: 11
+    audioClip: {fileID: 8300000, guid: cee2e8857d0b88c4686adce75dc52b4d, type: 3}
+    setups:
+      priority: 124
+      volume: 80
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 11
+  - type: 11
+    audioClip: {fileID: 8300000, guid: f55924524a9069e4183244321dbe6d86, type: 3}
+    setups:
+      priority: 124
+      volume: 80
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 11
+  - type: 12
+    audioClip: {fileID: 8300000, guid: 02c7d3553a56fd642bcdb774b3e6df68, type: 3}
+    setups:
+      priority: 124
+      volume: 80
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 12
+  - type: 12
+    audioClip: {fileID: 8300000, guid: cbbdd3f4011eefe4fb5101150c6c761f, type: 3}
+    setups:
+      priority: 124
+      volume: 80
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 12
+  - type: 13
+    audioClip: {fileID: 8300000, guid: b7967e33bc4ba1841aed11fd3775dcb8, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 13
+  - type: 14
+    audioClip: {fileID: 8300000, guid: b95aef959f1bfd24ab581054d01a9fcb, type: 3}
+    setups:
+      priority: 124
+      volume: 100
+      pitch: 1
+      startTime: 0
+      endTime: 0
+      s3DSettings:
+        minDistance: 0
+        maxDistance: 0
+    soundType: 14

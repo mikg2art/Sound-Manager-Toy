@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4340463218222171943
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4134814068244997357}
+  - component: {fileID: -1878227310120551601}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4134814068244997357
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4340463218222171943}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-1878227310120551601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4340463218222171943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc00417a81aa86c429270beabe16991c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundLibrary: {fileID: 11400000, guid: 9504cd47e47dbdc4395c98802a8e2585, type: 2}
+  musicLibrary: {fileID: 11400000, guid: 612717d393796dd4f8cd21e28701918e, type: 2}
+  soundEvent: {fileID: 269437398122025037, guid: f27d376e8963fad4c8fe303c7ec6f827,
+    type: 3}
+  musicEvent: {fileID: 269437398122025037, guid: 5ddda17c2c7c00b4f903d9b3a4a76d81,
+    type: 3}
+  audioMixer: {fileID: 24100000, guid: 68df663ea6bb32e4894d93260916f654, type: 2}
+  curAS: {fileID: 0}
+  prevAS: {fileID: 0}
+  endTransiTime: 0
+  volumeChange: 0
+  musicIsPlaying: 0
+  playerIsDead: 0
+  playTransitionEffect: 0
+  battleState: 0
+  battleOverTime: 10
+  percentage1: 0
+  percentage2: 0
+  curVolume: 0
+  prevVolume: 0
+  musicState: 0
+  masterVolume: 1
+  SFXVolume: 1
+  musicVolume: 1
+  masterPitch: 100
+  musicPitch: 100
+  SFXPitch: 100
